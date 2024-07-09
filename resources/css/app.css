@@ -1,0 +1,56 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'custom.css';
+
+@layer base {
+	@font-face {
+		font-family: 'nt-wagner-bold';
+		font-style: normal;
+		font-weight: normal;
+		src: url(../fonts/nt-wagner.woff);
+	}
+	@font-face {
+		font-family: 'acumin-pro-wide-regular';
+		font-weight: normal;
+		font-style: normal;
+		src: url(../fonts/acumin-pro-wide.woff), url(../fonts/acumin-pro-wide.woff2);
+	}
+}
+
+html {
+	scroll-behavior: smooth;
+	@apply font-body;
+}
+
+h3 {
+	@apply text-mint-green font-display text-2xl pb-2;
+}
+
+.btn {
+	@apply sm:w-auto text-sm flex text-white bg-transparent leading-6 font-semibold py-3 px-6 rounded-full ring-0 ring-offset-2 ring-offset-white outline-none transition-colors duration-200 uppercase hover:text-mint-green hover:ring-offset-mint-green hover:bg-none !important;
+	height: unset !important;
+}
+
+.wpforms-submit-container {
+	@apply flex justify-end !important;
+}
+
+.wpforms-field-large,
+.wpforms-field-medium {
+	@apply bg-transparent text-white border-0 border-b-2 border-mint-green rounded-none px-0 focus:border-white focus:shadow-none !important;
+}
+
+.wpforms-field-large::placeholder,
+.wpforms-field-medium::placeholder {
+	@apply text-white uppercase opacity-100 text-sm !important;
+}
+
+.bx {
+	@apply !text-3xl;
+}
+
+.shield .bx {
+	@apply !text-4xl text-mint-green;
+}
