@@ -573,6 +573,10 @@ body {
         font-size: 1.875rem;
         line-height: 2.25rem
     }
+    .md\:text-sm {
+        font-size: 0.875rem;
+        line-height: 1.25rem
+    }
 }
 @media (min-width: 960px) {
     .lg\:-mx-4 {
@@ -604,6 +608,10 @@ body {
     .lg\:px-12 {
         padding-left: 3rem;
         padding-right: 3rem
+    }
+    .lg\:px-24 {
+        padding-left: 6rem;
+        padding-right: 6rem
     }
     .lg\:text-5xl {
         font-size: 3rem;

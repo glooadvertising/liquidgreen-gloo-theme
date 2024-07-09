@@ -52,7 +52,7 @@
 		<?php if ( is_front_page() ) { ?>
 			<!-- Start introduction -->
 			<div class="container mx-auto z-10 w-full flex flex-col items-center">
-				<div class="lg:px-12 py-36 my-16 w-full">
+				<div class="lg:px-24 py-36 my-16 w-full">
                     <div class="mx-auto max-w-screen-md">
                         <h1 class="text-3xl text-[2.8rem] lg:text-6xl font-display mb-6 text-center"><?php bloginfo('description');?></h1>
                     </div>
