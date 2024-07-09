@@ -32,6 +32,9 @@
 				<a href="https://facebook.com/<?php echo $contactInfo['facebook']; ?>" target="_blank" class="-ml-2"><i class='bx bxl-facebook'></i></a>
 				<a href="https://instagram.com/<?php echo $contactInfo['instagram']; ?>" target="_blank"><i class='bx bxl-instagram'></i></a>
 			</div>
+			<div class="flex items-start gap-2 uppercase mt-2 text-[12px]">
+				<p>Site by <a href="https://glooadvertising.com.au" target="_blank">Gloo</a></p>
+			</div>
 		</div>
 		<div class="footer-col-right md:w-[50%]">
 			<?php echo do_shortcode('[wpforms id="10"]'); ?>

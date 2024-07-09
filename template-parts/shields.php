@@ -1,7 +1,7 @@
 <?php 
  $shields = [
-    'echo-fiendly',
-    'budget-fiendly',
+    'eco-friendly',
+    'budget-friendly',
     'rapid results',
     'weed prevention',
     'erosion control'

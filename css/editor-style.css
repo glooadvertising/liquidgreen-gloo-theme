@@ -92,6 +92,9 @@
 .-ml-2 {
     margin-left: -0.5rem
 }
+.mt-2 {
+    margin-top: 0.5rem
+}
 .flex {
     display: flex
 }
@@ -323,6 +326,16 @@
 }
 .text-xl {
     font-size: 1.25rem
+}
+.text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem
+}
+.text-\[10px\] {
+    font-size: 10px
+}
+.text-\[12px\] {
+    font-size: 12px
 }
 .font-bold {
     font-weight: 700
