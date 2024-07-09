@@ -7,7 +7,6 @@
 	]
 
 ?>
-</main>
 
 <?php do_action( 'tailpress_content_end' ); ?>
 
