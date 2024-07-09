@@ -580,6 +580,10 @@ video {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+.my-16{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
 .-ml-2{
     margin-left: -0.5rem;
 }
@@ -639,6 +643,12 @@ video {
 }
 .w-full{
     width: 100%;
+}
+.w-36{
+    width: 9rem;
+}
+.w-44{
+    width: 11rem;
 }
 .max-w-screen-md{
     max-width: 782px;
@@ -777,6 +787,10 @@ video {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
+.py-36{
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
 .pb-2{
     padding-bottom: 0.5rem;
 }
@@ -825,6 +839,13 @@ video {
 }
 .text-\[12px\]{
     font-size: 12px;
+}
+.text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+.text-xxxl{
+    font-size: 1.875rem;
 }
 .font-bold{
     font-weight: 700;

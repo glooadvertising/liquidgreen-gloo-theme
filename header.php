@@ -24,7 +24,7 @@
 				<div class="flex justify-between items-center w-full">
 					<div>
 						<a href="<?php echo get_bloginfo( 'url' ); ?>" class="font-extrabold text-lg uppercase">
-							<img src="<?php echo get_template_directory_uri()?>/resources/images/liquidgreen_header-logo.png" alt="LiquidGreen Logo" class="w-24 lg:w-48">
+							<img src="<?php echo get_template_directory_uri()?>/resources/images/liquidgreen_header-logo.png" alt="LiquidGreen Logo" class="w-44 lg:w-48">
 						</a>
 					</div>
 					<a href="#colophon" class="btn">Request Quote</a>
@@ -52,7 +52,7 @@
 		<?php if ( is_front_page() ) { ?>
 			<!-- Start introduction -->
 			<div class="container mx-auto z-10 w-full flex flex-col items-center">
-				<div class="lg:px-12 py-16 my-12 w-full">
+				<div class="lg:px-12 py-36 my-16 w-full">
                     <div class="mx-auto max-w-screen-md">
                         <h1 class="text-3xl text-[2.8rem] lg:text-6xl font-display mb-6 text-center"><?php bloginfo('description');?></h1>
                     </div>

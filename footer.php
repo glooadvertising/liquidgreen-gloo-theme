@@ -2,7 +2,7 @@
 	$contactInfo = [
 		'phone' => '0407 584 518',
 		'email' => 'info@liquidgreen.com.au',
-		'facebook' => '',
+		'facebook' => 'liquidgreentas',
 		'instagram' => 'liquidgreentas',
 	]
 
@@ -37,6 +37,7 @@
 			</div>
 		</div>
 		<div class="footer-col-right md:w-[50%]">
+			<?php echo do_shortcode('[wpforms id="10"]'); ?>
 			<?php echo do_shortcode('[wpforms id="13"]'); ?>
 			<div class="hidden md:flex justify-end gap-2 uppercase mt-12 text-[12px] text-right">
 				<p>Site by <a href="https://glooadvertising.com.au" target="_blank">Gloo</a></p>
