@@ -63,3 +63,4 @@
 		<?php } ?>
 
 		<?php do_action( 'tailpress_content_start' ); ?>
+	</div>

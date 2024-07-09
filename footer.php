@@ -34,7 +34,7 @@
 			</div>
 		</div>
 		<div class="footer-col-right md:w-[50%]">
-			<?php echo do_shortcode('[wpforms id="13"]'); ?>
+			<?php echo do_shortcode('[wpforms id="10"]'); ?>
 		</div>
 	</div>
 </footer>
