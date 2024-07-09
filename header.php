@@ -24,7 +24,7 @@
 				<div class="flex justify-between items-center w-full">
 					<div>
 						<a href="<?php echo get_bloginfo( 'url' ); ?>" class="font-extrabold text-lg uppercase">
-							<img src="<?php echo get_template_directory_uri()?>/resources/images/liquidgreen_header-logo.png" alt="LiquidGreen Logo" class="w-44 lg:w-48">
+							<img src="<?php echo get_template_directory_uri()?>/resources/images/liquidgreen_header-logo.png" alt="LiquidGreen Logo" class="w-36 lg:w-48">
 						</a>
 					</div>
 					<a href="#colophon" class="btn">Request Quote</a>
