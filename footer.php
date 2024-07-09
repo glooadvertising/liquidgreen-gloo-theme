@@ -28,7 +28,7 @@
 				<p class="uppercase pb-2 text-sm">Servicing Hobart greater area <br>and Southern Tasmania</p>
 				<p class="uppercase pb-2 text-sm">Contact Sophie on <a href="tel:<?php echo $contactInfo['phone']; ?>"><?php echo $contactInfo['phone']; ?></a> <br>or <a href="mailto:<?php echo $contactInfo['email']; ?>"><?php echo $contactInfo['email']; ?></a></p>
 			</div>
-			<div class="flex items-start">
+			<div class="flex items-start gap-2">
 				<a href="https://facebook.com/<?php echo $contactInfo['facebook']; ?>" target="_blank" class="-ml-2"><i class='bx bxl-facebook'></i></a>
 				<a href="https://instagram.com/<?php echo $contactInfo['instagram']; ?>" target="_blank"><i class='bx bxl-instagram'></i></a>
 			</div>
