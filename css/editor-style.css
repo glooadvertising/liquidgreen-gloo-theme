@@ -95,6 +95,15 @@
 .mt-2 {
     margin-top: 0.5rem
 }
+.mt-6 {
+    margin-top: 1.5rem
+}
+.ml-auto {
+    margin-left: auto
+}
+.mt-12 {
+    margin-top: 3rem
+}
 .flex {
     display: flex
 }
@@ -157,6 +166,9 @@
 }
 .items-start {
     align-items: flex-start
+}
+.items-end {
+    align-items: flex-end
 }
 .items-center {
     align-items: center
@@ -285,6 +297,9 @@
 }
 .text-center {
     text-align: center
+}
+.text-right {
+    text-align: right
 }
 .font-display {
     font-family: nt-wagner-bold
@@ -511,6 +526,9 @@ body {
     }
     .md\:flex {
         display: flex
+    }
+    .md\:hidden {
+        display: none
     }
     .md\:w-1\/2 {
         width: 50%
