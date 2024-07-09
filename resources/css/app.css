@@ -42,6 +42,11 @@ h3 {
 	@apply bg-transparent text-white border-0 border-b-2 border-mint-green rounded-none px-0 focus:border-white focus:shadow-none !important;
 }
 
+.wpforms-field.wpforms-field-text,
+.wpforms-field.wpforms-field-textarea {
+	padding-top: 0 !important;
+}
+
 .wpforms-field-large::placeholder,
 .wpforms-field-medium::placeholder {
 	@apply text-white uppercase opacity-100 text-sm !important;
@@ -53,4 +58,8 @@ h3 {
 
 .shield .bx {
 	@apply !text-4xl text-mint-green;
+}
+
+.wpforms-container.wpforms-container-full.wpforms-render-modern {
+	margin: 0 !important;
 }

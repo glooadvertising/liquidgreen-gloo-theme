@@ -47,7 +47,7 @@
 	</header>
 
 	<div id="content" class="site-content flex flex-grow h-[100vh] items-center justify-center" >
-		<img src="<?php echo get_template_directory_uri(); ?>/resources/images/grass.jpg" alt="grass" class="absolute z-0 w-full h-full object-cover opacity-25 top-0">
+		<img src="<?php echo get_template_directory_uri(); ?>/resources/images/grass_background.jpg" alt="grass" class="absolute z-0 w-full h-full object-cover top-0">
 
 		<?php if ( is_front_page() ) { ?>
 			<!-- Start introduction -->
