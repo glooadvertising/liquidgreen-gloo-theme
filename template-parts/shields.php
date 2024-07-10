@@ -8,7 +8,7 @@
  ]
 ?>
 
-<div class="shields-container flex flex-wrap justify-around items-center gap-8 w-full md:w-[80%]">
+<div class="shields-container flex flex-wrap place-content-evenly items-center gap-6 md:gap-8 w-full md:w-[80%]">
     <?php foreach ($shields as $shield) { ?>
     
         <div class="shield flex flex-col items-center gap-2 w-24">

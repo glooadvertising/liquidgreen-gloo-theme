@@ -187,6 +187,9 @@
 .flex-wrap {
     flex-wrap: wrap
 }
+.place-content-evenly {
+    place-content: space-evenly
+}
 .items-start {
     align-items: flex-start
 }
@@ -219,6 +222,9 @@
 }
 .gap-8 {
     gap: 2rem
+}
+.gap-6 {
+    gap: 1.5rem
 }
 .rounded {
     border-radius: 0.25rem
@@ -588,6 +594,9 @@ body {
     }
     .md\:justify-between {
         justify-content: space-between
+    }
+    .md\:gap-8 {
+        gap: 2rem
     }
     .md\:text-3xl {
         font-size: 1.875rem;

@@ -1,8 +1,8 @@
 <?php 
 	$contactInfo = [
 		'phone' => '0407 584 518',
-		'email' => 'info@liquidgreen.com.au',
-		'facebook' => 'liquidgreentas',
+		'email' => 'info@liquidgreentas.com.au',
+		'facebook' => 'liquidgreengrass',
 		'instagram' => 'liquidgreentas',
 	]
 
